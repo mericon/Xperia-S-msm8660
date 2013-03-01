@@ -1386,6 +1386,10 @@ config MSM_SDIO_SMEM
 	  memory. Used by remote storage client to shadow
 	  MDM9K filesystem.
 
+config CPU_VOLTAGE_TABLE
+	bool "Enable CPU Voltage Table SYSFS"
+	defaul y
+
 config MSM_DALRPC
 	bool "DAL RPC support"
 	default n
